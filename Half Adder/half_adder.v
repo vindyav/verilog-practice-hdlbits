@@ -1,7 +1,7 @@
 module half_adder(
 	               in_a,         //input
 	               in_b,         //input 
-               	 out_sum,      //output
+               	       out_sum,      //output
 	               out_carry     //output
                   );
 
