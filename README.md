@@ -50,7 +50,7 @@ In a Verilog "continuous assignment" (`assign out = in;`), the value of the sign
 <img width="811" height="328" alt="image" src="https://github.com/user-attachments/assets/9113db23-edb4-48ec-9134-596099a76748" />
 
 
-👉 [View Solution](./basics/module_wire.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/wire)
 
 ---
 ### 🔹 Problem 2: Module Declaration – Constant Zero Output
