@@ -128,5 +128,29 @@ In Verilog, this can be written using the **bitwise XOR operator (`^`)** followe
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/xnor.v)
 
+---
+
+#### 🔹 Problem 7: Declaring Wires
+**Statement:**  
+*Implement the following circuit*  
+<img width="620" height="264" alt="Wiredecl2" src="https://github.com/user-attachments/assets/49c9aa13-e362-40f1-bf78-745e965530fa" />
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/declaring_wires.v)
+
+This demonstrates how to **declare internal wires** and connect them via **continuous assignments**.
+
+---
+
+#### 🔹 Problem 8: 7458 Chip (Four AND gates + Two OR gates)
+**Statement:**  
+*The 7458 chip contains four AND gates and two OR gates. Create a module with the same functionality. It has 10 inputs and 2 outputs.*  
+<img width="723" height="428" alt="7458" src="https://github.com/user-attachments/assets/6565037f-a815-4742-bb91-22bc059b1603" />
+
+You can implement this in two ways:  
+1. Using `assign` statements directly.  
+2. Declaring intermediate wires for the outputs of the AND gates, then OR’ing them together.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/chip_7458.v)
+
 
 
