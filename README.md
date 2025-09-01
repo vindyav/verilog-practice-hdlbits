@@ -159,9 +159,7 @@ You can implement this in two ways:
 
 Vectors are used to group related signals under one name.  
 For example:  
-
-```verilog
-wire [7:0] w;
+`wire [7:0] w;`
 This declares an 8-bit vector w, which is equivalent to declaring 8 separate wires.
 
 Statement:
