@@ -160,7 +160,7 @@ Vectors are used to group related signals under one name. For example:
 wire [7:0] w;
 **Statement:**  
 *Build the Following circuit*
-<img width="690" height="227" alt="Vector0" src="https://github.com/user-attachments/assets/06fe37da-cf1c-4b16-8551-5722eb4f790b" />
+<img width="690" height="227" alt="Vector0" src="https://github.com/user-attachments/assets/5642c59d-a1a3-4921-84a2-c3e0526b3dbb" />
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector0)
 
