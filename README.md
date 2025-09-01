@@ -150,7 +150,17 @@ You can implement this in two ways:
 1. Using `assign` statements directly.  
 2. Declaring intermediate wires for the outputs of the AND gates, then OR’ing them together.  
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/chip_7458.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/7458chip.v)
 
+---
+### 📂 Basics
+#### 🔹 Problem 1: Vector0
+Vectors are used to group related signals under one name. For example: 
+```verilog
+wire [7:0] w;
+**Statement:**  
+*Build the Following circuit*
+<img width="690" height="227" alt="Vector0" src="https://github.com/user-attachments/assets/06fe37da-cf1c-4b16-8551-5722eb4f790b" />
 
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector0)
 
