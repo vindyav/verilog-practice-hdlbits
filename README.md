@@ -40,13 +40,17 @@ The repo is organized by HDLBits sections.
 
 ### 🔹 Problem 1: Module with One Input and One Output (Wire)
 **Statement:**  
-*Create a module with one input and one output that behaves like a wire.*
-//
-Unlike physical wires, wires (and other signals) in Verilog are directional. This means information flows in only one direction, from (usually one) source to the sinks (The source is also often called a driver that drives a value onto a wire). In a Verilog "continuous assignment" (assign right_side = left_side;), the value of the signal on the left side is driven onto the wire on the right side. The assignment is "continuous" because the assignment continues all the time even if the left side's value changes. A continuous assignment is not a one-time event.
-<img width="811" height="328" alt="image" src="https://github.com/user-attachments/assets/9fec4172-5116-4c3f-a731-7daa006a0681" />
+*Create a module with one input and one output that behaves exactly like a wire. The output should always follow the input.*  
+
+Unlike physical wires, wires (and other signals) in Verilog are directional. This means information flows in only one direction, from (usually one) source to the sinks.  
+The source is also often called a driver that drives a value onto a wire.  
+
+In a Verilog "continuous assignment" (`assign out = in;`), the value of the signal on the left side is driven onto the wire on the right side. The assignment is "continuous" because the assignment continues all the time even if the left side's value changes. A continuous assignment is not a one-time event.  
+
+<img width="811" height="328" alt="image" src="https://github.com/user-attachments/assets/9113db23-edb4-48ec-9134-596099a76748" />
 
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/wire)
+👉 [View Solution](./basics/module_wire.v)
 
 ---
 ### 🔹 Problem 2: Module Declaration – Constant Zero Output
