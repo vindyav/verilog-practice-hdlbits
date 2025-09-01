@@ -38,24 +38,21 @@ The repo is organized by HDLBits sections.
 
 ## 🚀 Verilog Language
 
-### 🔹 Problem 1: Module with One Input and One Output (Wire)
+### 📂 Basics
+
+#### 🔹 Problem 1: Simple Wire
 **Statement:**  
 *Create a module with one input and one output that behaves exactly like a wire. The output should always follow the input.*  
 
-Unlike physical wires, wires (and other signals) in Verilog are directional. This means information flows in only one direction, from (usually one) source to the sinks.  
-The source is also often called a driver that drives a value onto a wire.  
+Unlike physical wires, wires (and other signals) in Verilog are **directional**.  
+This means information flows in only one direction — from a source (also called a driver) to the sinks.  
 
-In a Verilog "continuous assignment" (`assign out = in;`), the value of the signal on the left side is driven onto the wire on the right side. The assignment is "continuous" because the assignment continues all the time even if the left side's value changes. A continuous assignment is not a one-time event.  
+In a Verilog "continuous assignment" (`assign out = in;`), the value of the signal on the left side is driven onto the wire on the right side.  
+The assignment is *continuous* because it remains valid at all times, even if the input changes — not just a one-time event.  
 
-<img width="811" height="328" alt="image" src="https://github.com/user-attachments/assets/9113db23-edb4-48ec-9134-596099a76748" />
+<img width="811" height="328" alt="wire-diagram" src="https://github.com/user-attachments/assets/9113db23-edb4-48ec-9134-596099a76748" />
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_wire.v)
 
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/wire)
-
----
-### 🔹 Problem 2: Module Declaration – Constant Zero Output
-**Statement:**  
-*Build a circuit with no inputs and one output that always drives logic low (0).*
-
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant0)
 
