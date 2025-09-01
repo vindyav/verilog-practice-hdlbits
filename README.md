@@ -25,6 +25,6 @@ The repo is organized by HDLBits sections.
 **Statement:**  
 *Write a module declaration for a circuit with no inputs and one output. That output should always drive logic high (1).*
 
-👉 [View Solution](./basics/module_constant.v)
+👉 [View Solution]([./basics/module_constant.v](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant))
 
 ---
