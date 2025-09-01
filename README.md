@@ -70,5 +70,18 @@ Here, multiple outputs can be driven by the same input (for example, both `x` an
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/four_wires.v)
 
+---
+
+#### 🔹 Problem 3: Inverter
+**Statement:**  
+*Create a module that implements a NOT gate.*  
+
+The NOT gate (or inverter) outputs the logical complement of its input:  
+- If the input is `1`, the output is `0`.  
+- If the input is `0`, the output is `1`.  
+
+In Verilog, this can be written using the **bitwise NOT operator (`~`)** inside a continuous assignment.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/inverter.v)
 
 
