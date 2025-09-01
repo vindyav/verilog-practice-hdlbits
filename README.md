@@ -52,7 +52,7 @@ The assignment is *continuous* because it remains valid at all times, even if th
 
 <img width="811" height="328" alt="wire-diagram" src="https://github.com/user-attachments/assets/9113db23-edb4-48ec-9134-596099a76748" />
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_wire.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/simple_wire)
 
 
 
