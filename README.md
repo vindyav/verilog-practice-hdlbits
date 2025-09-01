@@ -84,4 +84,49 @@ In Verilog, this can be written using the **bitwise NOT operator (`~`)** inside 
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/inverter.v)
 
+---
+
+#### 🔹 Problem 4: AND Gate
+**Statement:**  
+*Create a module with two inputs and one output that implements an AND gate.*  
+<img width="586" height="281" alt="Andgate" src="https://github.com/user-attachments/assets/3f2bff74-1383-40a1-838f-d07abad2c8b3" />
+
+The AND gate outputs `1` only when **both inputs are 1**.  
+Otherwise, the output is `0`.  
+
+In Verilog, this can be written using the **bitwise AND operator (`&`)** inside a continuous assignment.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/and.v)
+
+---
+
+#### 🔹 Problem 5: NOR Gate
+**Statement:**  
+*Create a module with two inputs and one output that implements a NOR gate.*  
+<img width="586" height="281" alt="Norgate" src="https://github.com/user-attachments/assets/ea3189ad-e731-4085-aa21-531c7683309d" />
+
+The NOR gate is the **inversion of the OR gate**:  
+- If **both inputs are 0**, the output is `1`.  
+- Otherwise, the output is `0`.  
+
+In Verilog, this can be written using the **bitwise OR operator (`|`)** followed by a bitwise NOT (`~`).  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/nor.v)
+
+---
+
+#### 🔹 Problem 6: XNOR Gate
+**Statement:**  
+*Create a module with two inputs and one output that implements an XNOR gate.*  
+<img width="586" height="281" alt="Xnorgate" src="https://github.com/user-attachments/assets/c822484a-5125-473d-9105-930c0a659528" />
+
+The XNOR gate is the **complement of XOR**:  
+- Output is `1` when both inputs are the same (00 or 11).  
+- Output is `0` when inputs differ (01 or 10).  
+
+In Verilog, this can be written using the **bitwise XOR operator (`^`)** followed by a NOT (`~`).  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/xnor.v)
+
+
 
