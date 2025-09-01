@@ -16,4 +16,15 @@ It is widely used by students and engineers to practice and master Verilog codin
 ---
 
 ## 📂 Repository Structure
-The repo is organized by HDLBits sections:
+The repo is organized by HDLBits sections.
+---
+
+## 🚀 Getting Started
+
+### 🔹 Problem 1: Module Declaration – Constant Output
+**Statement:**  
+*Write a module declaration for a circuit with no inputs and one output. That output should always drive logic high (1).*
+
+👉 [View Solution](./basics/module_constant.v)
+
+---
