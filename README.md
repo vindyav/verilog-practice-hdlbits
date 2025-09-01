@@ -54,5 +54,21 @@ The assignment is *continuous* because it remains valid at all times, even if th
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/simple_wire)
 
+---
+
+#### 🔹 Problem 2: Four Wires
+**Statement:**  
+*Create a module with 3 inputs and 4 outputs that behaves like wires. The connections should be:*  
+- `a -> w`  
+- `b -> x`  
+- `b -> y`  
+- `c -> z`  
+<img width="815" height="281" alt="image" src="https://github.com/user-attachments/assets/93c50f51-d948-48a6-a71b-f556f809be1d" />
+
+In Verilog, outputs can be directly assigned from inputs using **continuous assignments** (`assign`).  
+Here, multiple outputs can be driven by the same input (for example, both `x` and `y` take the value of `b`).  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/four_wires.v)
+
 
 
