@@ -25,14 +25,14 @@ The repo is organized by HDLBits sections.
 **Statement:**  
 *Write a module declaration for a circuit with no inputs and one output. That output should always drive logic high (1).*
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Getting%20Started/module_constant.v)
 
 ---
 ### 🔹 Problem 2: Module Declaration – Constant Zero Output
 **Statement:**  
 *Build a circuit with no inputs and one output that always drives logic low (0).*
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant0.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Getting%20Started/module_constant0.v)
 
 ---
 
