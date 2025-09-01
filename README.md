@@ -75,7 +75,7 @@ Here, multiple outputs can be driven by the same input (for example, both `x` an
 #### 🔹 Problem 3: Inverter
 **Statement:**  
 *Create a module that implements a NOT gate.*  
-
+<img width="575" height="281" alt="Notgate" src="https://github.com/user-attachments/assets/b3911201-a3eb-4536-8de5-19dafc427b5c" />
 The NOT gate (or inverter) outputs the logical complement of its input:  
 - If the input is `1`, the output is `0`.  
 - If the input is `0`, the output is `1`.  
