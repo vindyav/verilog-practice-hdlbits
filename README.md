@@ -28,3 +28,8 @@ The repo is organized by HDLBits sections.
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant)
 
 ---
+### 🔹 Problem 2: Module Declaration – Constant Zero Output
+**Statement:**  
+*Build a circuit with no inputs and one output that always drives logic low (0).*
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/module_constant0)
