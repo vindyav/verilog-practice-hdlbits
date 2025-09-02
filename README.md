@@ -162,7 +162,7 @@ For example:
 `wire [7:0] w;`
 This declares an 8-bit vector w, which is equivalent to declaring 8 separate wires.
 
-Statement:
+**Statement:**
 Build the following circuit:
 
 <img width="690" height="227" alt="Vector0" src="https://github.com/user-attachments/assets/5642c59d-a1a3-4921-84a2-c3e0526b3dbb" />
@@ -179,7 +179,6 @@ This declares an 8-bit vector w, which is equivalent to declaring 8 separate wir
 
 If you are declaring a input or output port, the type can additionally include the port type (e.g., input or output) as well. Some examples:  
 
-
 `wire [7:0] w;`   // 8-bit wire  
 `reg  [4:1] x;`    // 4-bit reg  
 `output reg [0:0] y;`   // 1-bit reg that is also an output port (this is still a vector)  
@@ -187,8 +186,48 @@ If you are declaring a input or output port, the type can additionally include t
 `output [3:0] a;`   // 4-bit output wire. Type is 'wire' unless specified otherwise.  
 `wire [0:7] b;`   // 8-bit wire where b[0] is the most-significant bit.  
 
-Statement:  
+**Statement:**  
 Build a combinational circuit that splits an input half-word (16 bits, [15:0] ) into lower [7:0] and upper [15:8] bytes.  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector1.v)
 
+---
+
+## 🔹 Problem 3: [Vector2](https://hdlbits.01xz.net/wiki/Vector2)  
+
+**Statement:**  
+
+A 32-bit vector can be viewed as containing 4 bytes (bits [31:24], [23:16], etc.). Build a circuit that will reverse the byte ordering of the 4-byte word.  
+
+Eg: AaaaaaaaBbbbbbbbCcccccccDddddddd => DdddddddCcccccccBbbbbbbbAaaaaaaa
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector2.v)
+
+---
+
+## 🔹 Problem 4: [Vectorgates](https://hdlbits.01xz.net/wiki/Vectorgates)  
+
+**Statement:**  
+
+Build a circuit that has two 3-bit inputs that computes the bitwise-OR of the two vectors, the logical-OR of the two vectors, and the inverse (NOT) of both vectors. Place the inverse of b in the upper half of out_not (i.e., bits [5:3]), and the inverse of a in the lower half.  
+<img width="829" height="227" alt="Vectorgates" src="https://github.com/user-attachments/assets/75dbbb86-6994-4eae-b3a9-e1e7fb81c246" />
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
+
+---
+
+## 🔹 Problem 5: [Four-input gates](https://hdlbits.01xz.net/wiki/Gates4)  
+
+**Statement:**  
+
+Build a combinational circuit with four inputs, in[3:0].  
+
+There are 3 outputs:  
+
+out_and: output of a 4-input AND gate.  
+out_or: output of a 4-input OR gate.  
+out_xor: output of a 4-input XOR gate.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
+
+---
