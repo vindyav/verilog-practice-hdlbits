@@ -244,6 +244,6 @@ out_and: output of a 4-input AND gate.
 out_or: output of a 4-input OR gate.  
 out_xor: output of a 4-input XOR gate.  
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vectorgates.v)
 
 ---
