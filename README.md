@@ -231,3 +231,19 @@ out_xor: output of a 4-input XOR gate.
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
 
 ---
+
+## 🔹 Problem 6: [Vector3](https://hdlbits.01xz.net/wiki/Vector3)  
+
+**Statement:**  
+
+Build a combinational circuit with four inputs, in[3:0].  
+
+There are 3 outputs:  
+
+out_and: output of a 4-input AND gate.  
+out_or: output of a 4-input OR gate.  
+out_xor: output of a 4-input XOR gate.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
+
+---
