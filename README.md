@@ -233,17 +233,29 @@ out_xor: output of a 4-input XOR gate.
 ---
 
 #### 🔹 Problem 6: [Vector3](https://hdlbits.01xz.net/wiki/Vector3)  
+Part selection was used to select portions of a vector. The concatenation operator {a,b,c} is used to create larger vectors by concatenating smaller portions of a vector together.
+
+{3'b110, 3'b100} => 6'b110100  
+{1'b1, 1'b1, 3'b011} => 5'b11011  
+{4'hb, 4'd11} => 8'b10111011     // 4'hb and 4'd11 are both 4'b1011 in binary  
+
+Concatenation needs to know the width of every component. Thus, {1, 2, 3} is illegal and results in the error message: unsized constants are not allowed in concatenations.  
+**Statement:**  
+
+Given several input vectors, concatenate them together then split them up into several output vectors. There are six 5-bit input vectors: a, b, c, d, e, and f, for a total of 30 bits of input. There are four 8-bit output vectors: w, x, y, and z, for 32 bits of output. The output should be a concatenation of the input vectors followed by two 1 bits: 
+
+<img width="360" height="125" alt="Vector3" src="https://github.com/user-attachments/assets/b736d967-da10-4fce-8f09-fc4f83de8dcd" />
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector3.v)
+
+---
+
+#### 🔹 Problem 7: [Vectorreversal](https://hdlbits.01xz.net/wiki/Vectorr)  
 
 **Statement:**  
 
-Build a combinational circuit with four inputs, in[3:0].  
+Given an 8-bit input vector [7:0], reverse its bit ordering.  
 
-There are 3 outputs:  
-
-out_and: output of a 4-input AND gate.  
-out_or: output of a 4-input OR gate.  
-out_xor: output of a 4-input XOR gate.  
-
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vectorgates.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
 
 ---
