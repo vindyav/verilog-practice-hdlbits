@@ -21,14 +21,14 @@ The repo is organized by HDLBits sections.
 
 ## 🚀 Getting Started
 
-### 🔹 Problem 1: Module Declaration – [Constant Output](https://hdlbits.01xz.net/wiki/Step_one) 
+#### 🔹 Problem 1: Module Declaration – [Constant Output](https://hdlbits.01xz.net/wiki/Step_one) 
 **Statement:**  
 *Write a module declaration for a circuit with no inputs and one output. That output should always drive logic high (1).*
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Getting%20Started/module_constant.v)
 
 ---
-### 🔹 Problem 2: Module Declaration – [Constant Zero Output](https://hdlbits.01xz.net/wiki/Zero)
+#### 🔹 Problem 2: Module Declaration – [Constant Zero Output](https://hdlbits.01xz.net/wiki/Zero)
 **Statement:**  
 *Build a circuit with no inputs and one output that always drives logic low (0).*
 
