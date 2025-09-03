@@ -100,7 +100,7 @@ In Verilog, this can be written using the **bitwise AND operator (`&`)** inside 
 
 ---
 
-#### 🔹 Problem 5: NOR Gate[https://hdlbits.01xz.net/wiki/Norgate]
+#### 🔹 Problem 5: [NOR Gate](https://hdlbits.01xz.net/wiki/Norgate)
 **Statement:**  
 *Create a module with two inputs and one output that implements a NOR gate.*  
 <img width="586" height="281" alt="Norgate" src="https://github.com/user-attachments/assets/ea3189ad-e731-4085-aa21-531c7683309d" />
@@ -155,7 +155,7 @@ You can implement this in two ways:
 ---
 # 📂 Basics
 
-## 🔹 Problem 1: [Vector0](https://hdlbits.01xz.net/wiki/Vector0)
+#### 🔹 Problem 1: [Vector0](https://hdlbits.01xz.net/wiki/Vector0)
 
 Vectors are used to group related signals under one name.  
 For example:  
@@ -171,7 +171,7 @@ Build the following circuit:
 
 ---
 
-## 🔹 Problem 2: [Vector1](https://hdlbits.01xz.net/wiki/Vector1)
+#### 🔹 Problem 2: [Vector1](https://hdlbits.01xz.net/wiki/Vector1)
 
 Vectors must be declared: `type [upper:lower] vector_name;`  
 `type` specifies the datatype of the vector, usually wire or reg.  
@@ -193,7 +193,7 @@ Build a combinational circuit that splits an input half-word (16 bits, [15:0] ) 
 
 ---
 
-## 🔹 Problem 3: [Vector2](https://hdlbits.01xz.net/wiki/Vector2)  
+#### 🔹 Problem 3: [Vector2](https://hdlbits.01xz.net/wiki/Vector2)  
 
 **Statement:**  
 
@@ -205,7 +205,7 @@ Eg: AaaaaaaaBbbbbbbbCcccccccDddddddd => DdddddddCcccccccBbbbbbbbAaaaaaaa
 
 ---
 
-## 🔹 Problem 4: [Vectorgates](https://hdlbits.01xz.net/wiki/Vectorgates)  
+#### 🔹 Problem 4: [Vectorgates](https://hdlbits.01xz.net/wiki/Vectorgates)  
 
 **Statement:**  
 
@@ -216,7 +216,7 @@ Build a circuit that has two 3-bit inputs that computes the bitwise-OR of the tw
 
 ---
 
-## 🔹 Problem 5: [Four-input gates](https://hdlbits.01xz.net/wiki/Gates4)  
+#### 🔹 Problem 5: [Four-input gates](https://hdlbits.01xz.net/wiki/Gates4)  
 
 **Statement:**  
 
@@ -232,7 +232,7 @@ out_xor: output of a 4-input XOR gate.
 
 ---
 
-## 🔹 Problem 6: [Vector3](https://hdlbits.01xz.net/wiki/Vector3)  
+#### 🔹 Problem 6: [Vector3](https://hdlbits.01xz.net/wiki/Vector3)  
 
 **Statement:**  
 
