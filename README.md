@@ -332,17 +332,17 @@ You are given a module named mod_a that has 2 outputs and 4 inputs, in that orde
 #### 🔹 Problem 3: [Module Name](https://hdlbits.01xz.net/wiki/Module_name)
 
 **Statement:** 
-You are given a module named mod_a that has 2 outputs and 4 inputs, in that order. You must connect the 6 ports by position to your top-level module's ports `out1`, `out2`, `a`, `b`, `c`, and `d`, in that order.
+You are given a module named mod_a that has 2 outputs and 4 inputs, in that order. You must connect the 6 ports by position to your top-level module's ports `out1`, `out2`, `a`, `b`, `c`, and `d`, in that order.  
 
-👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/module_name.v)
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/module_name.v)  
 
 ---
 
 #### 🔹 Problem 4: [Three Modules](https://hdlbits.01xz.net/wiki/Module_shift)
 
 **Statement:** 
-You are given a module my_dff with two inputs and one output (that implements a D flip-flop). Instantiate three of them, then chain them together to make a shift register of length 3  
-<img width="755" height="226" alt="Module_shift" src="https://github.com/user-attachments/assets/0812c41f-0f78-4cda-a08d-bae6bfd95a3d" />
+You are given a module my_dff with two inputs and one output (that implements a D flip-flop). Instantiate three of them, then chain them together to make a shift register of length 3    
+<img width="755" height="226" alt="Module_shift" src="https://github.com/user-attachments/assets/0812c41f-0f78-4cda-a08d-bae6bfd95a3d" />  
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/three_modules.v)
 
 ---
@@ -350,8 +350,8 @@ You are given a module my_dff with two inputs and one output (that implements a 
 #### 🔹 Problem 5: [Module and vectors](https://hdlbits.01xz.net/wiki/Module_shift8)
 
 **Statement:** 
-Build the Circuit below:
-<img width="852" height="259" alt="Module_shift8" src="https://github.com/user-attachments/assets/f9d89dd9-cfbc-4ec5-a343-e712dcd4eeb1" />
+Build the Circuit below:  
+<img width="852" height="259" alt="Module_shift8" src="https://github.com/user-attachments/assets/f9d89dd9-cfbc-4ec5-a343-e712dcd4eeb1" />  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/module_shift8.v)
 
@@ -360,8 +360,8 @@ Build the Circuit below:
 #### 🔹 Problem 6: [Adder1](https://hdlbits.01xz.net/wiki/Module_add)
 
 **Statement:** 
-Build the Circuit below:
-<img width="491" height="304" alt="Module_add" src="https://github.com/user-attachments/assets/d1fdb04c-b87d-4eae-b9fd-413a13377f88" />
+Build the Circuit below:  
+<img width="491" height="304" alt="Module_add" src="https://github.com/user-attachments/assets/d1fdb04c-b87d-4eae-b9fd-413a13377f88" />  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules:%20Hierarchy/adder1.v)
 
@@ -370,8 +370,8 @@ Build the Circuit below:
 #### 🔹 Problem 7: [Adder2](https://hdlbits.01xz.net/wiki/Module_fadd)
 
 **Statement:** 
-Build the Circuit below:
-<img width="665" height="671" alt="Module_fadd" src="https://github.com/user-attachments/assets/e19a5f3b-d0bc-41f0-a38c-289db8d892f3" />
+Build the Circuit below:  
+<img width="665" height="671" alt="Module_fadd" src="https://github.com/user-attachments/assets/e19a5f3b-d0bc-41f0-a38c-289db8d892f3" />  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/adder2.v)
 
@@ -380,8 +380,8 @@ Build the Circuit below:
 #### 🔹 Problem 8: [Carry-select adder](https://hdlbits.01xz.net/wiki/Module_cseladd)
 
 **Statement:** 
-Build the Circuit below:
-<img width="575" height="396" alt="Module_cseladd" src="https://github.com/user-attachments/assets/3eab7864-3a09-4137-a319-f3b3ece1f028" />
+Build the Circuit below:  
+<img width="575" height="396" alt="Module_cseladd" src="https://github.com/user-attachments/assets/3eab7864-3a09-4137-a319-f3b3ece1f028" />  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/carry-selectadder.v)
 
@@ -390,8 +390,8 @@ Build the Circuit below:
 #### 🔹 Problem 9: [Adder-Subtractor](https://hdlbits.01xz.net/wiki/Module_addsub)
 
 **Statement:** 
-Build the Circuit below:
-<img width="491" height="304" alt="Module_addsub" src="https://github.com/user-attachments/assets/5e18869c-11f0-4a02-b3cb-5f62eaccbe4f" />
+Build the Circuit below:  
+<img width="491" height="304" alt="Module_addsub" src="https://github.com/user-attachments/assets/5e18869c-11f0-4a02-b3cb-5f62eaccbe4f" />  
 
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/module_addsub.v)
 
