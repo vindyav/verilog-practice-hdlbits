@@ -153,7 +153,7 @@ You can implement this in two ways:
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/basics/7458chip.v)
 
 ---
-# 📂 Basics
+# 📂 Vectors
 
 #### 🔹 Problem 1: [Vector0](https://hdlbits.01xz.net/wiki/Vector0)
 
@@ -259,3 +259,70 @@ Given an 8-bit input vector [7:0], reverse its bit ordering.
 👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/Vectorgates.v)
 
 ---
+
+#### 🔹 Problem 8: [Vector4](https://hdlbits.01xz.net/wiki/Vector4)  
+The concatenation operator allowed concatenating together vectors to form a larger vector. But sometimes you want the same thing concatenated together many times, and it is still tedious to do something like assign a = {b,b,b,b,b,b};  
+{num{vector}}  
+This replicates vector by num times. num must be a constant. Both sets of braces are required.  
+
+Examples:  
+
+{5{1'b0}}           // 5'b00000 (or 5'd0 or 5'h0)  
+{2{a,b,c}}          // The same as {a,b,c,a,b,c}  
+{3'd6, {2{3'd5}}}   // 9'b110_101_101. It's a concatenation of 101 with  
+                    // the second vector, which is two copies of 3'b101  
+
+Sign-extending 4'b0110 (6) to 8 bits results in 8'b00000110 (6), while sign-extending 4'b1110 (-4) to 8 bits results in 8'b11111110 (-4).                    
+**Statement:**  
+
+Build a circuit that sign-extends an 8-bit number to 32 bits. This requires a concatenation of 24 copies of the sign bit (i.e., replicate bit[7] 24 times) followed by the 8-bit number itself.  
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector4.v)
+
+---
+
+#### 🔹 Problem 8: [Vector5](https://hdlbits.01xz.net/wiki/Vector5)  
+
+**Statement:**  
+
+Given five 1-bit signals (a, b, c, d, and e), compute all 25 pairwise one-bit comparisons in the 25-bit output vector. The output should be 1 if the two bits being compared are equal.  
+
+out[24] = ~a ^ a;   // a == a, so out[24] is always 1.  
+out[23] = ~a ^ b;  
+out[22] = ~a ^ c;  
+...  
+out[ 1] = ~e ^ d;  
+out[ 0] = ~e ^ e;  
+
+<img width="399" height="115" alt="Vector5" src="https://github.com/user-attachments/assets/f542339a-02e8-44b5-a4dd-96e2ab09e296" />
+
+As the diagram shows, this can be done more easily using the replication and concatenation operators.  
+
+The top vector is a concatenation of 5 repeats of each input  
+The bottom vector is 5 repeats of a concatenation of the 5 inputs   
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/vectors/vector5.v)
+
+---
+
+# 📂 Modules: Hierarchy
+#### 🔹 Problem 1: [Module](https://hdlbits.01xz.net/wiki/Module)
+
+Connecting Signals to Module Ports:
+2 ways: 
+1. By Position: `mod_a instance1(a, b, out)`
+2. Bu name:     `mod_a instance2(.in1(a), .in2(b), .out(out))`
+
+Create one instance of module mod_a, then connect the module's three pins (in1, in2, and out) to your top-level module's three ports (wires a, b, and out)
+
+👉 [View Solution](https://github.com/vindyav/verilog-practice-hdlbits/blob/main/Modules%3A%20Hierarchy/module.v)
+
+---
+
+
+
+
+
+
+
+
